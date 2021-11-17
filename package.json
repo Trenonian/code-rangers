@@ -16,7 +16,6 @@
         "web-vitals": "^1.1.2"
     },
     "scripts": {
-        "start": "cd frontend && react-scripts start",
         "backend": "python3 backend/app.py",
         "frontend": "cd frontend && npm run start"
     },

@@ -13,8 +13,7 @@
 
 import unittest
 
-from unittest.mock import MagicMock, patch
-import open_weather
+from unittest.mock import patch
 import national_parks
 
 KEY_INPUT = "input"
