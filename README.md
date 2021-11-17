@@ -1,10 +1,11 @@
 # Project2-CodeRangers
 
-## Heroku:
+## Heroku: https://coderangers-frontend.herokuapp.com/
 
 ### Getting Started
 
 #### Prerequisites
+
 - Python: Application is run through python
   1. Download from the Python website (https://www.python.org/downloads/)
   2. Follow included installation guide
@@ -25,18 +26,19 @@
   1. Run `$ npm i react`
 
 #### Installation
+
 - Get API Key for OpenWeather
   1. Documentation for this process: https://developer.spotify.com/documentation/web-api/quick-start/
   2. Store as `OPEN_WEATHER_KEY=<insert key>`
-- Get API key for National Parks 
+- Get API key for National Parks
   1. Documentation for this process: https://docs.genius.com/#/getting-started-h1
   2. Store as `NATIONAL_PARKS_KEY=<insert key>`
 - Get Database URL
-  1. Create Heroku Database & get Database URL 
+  1. Create Heroku Database & get Database URL
   2. Store as `DATABASE_URL=<insert key>`
 - Clone repository from github
   1. `$ git clone git@github.com:AldrichTambajong/Project2-CodeRangers.git`
-- Store `OPEN_WEATHER_KEY`, `NATIONAL_PARKS_KEY`, & `DATABASE_URL` in .env file 
+- Store `OPEN_WEATHER_KEY`, `NATIONAL_PARKS_KEY`, & `DATABASE_URL` in .env file
 - Open two terminals, one in `backend` folder and one in `frontend` folder
   1. Run `python3 app.py` in backend folder
   2. Run `npm run start` in frontend folder

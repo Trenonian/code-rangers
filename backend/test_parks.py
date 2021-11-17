@@ -13,8 +13,7 @@
 
 import unittest
 
-from unittest.mock import MagicMock, patch
-import open_weather
+from unittest.mock import patch
 import national_parks
 
 KEY_INPUT = "input"
@@ -288,7 +287,7 @@ class ParksTests(unittest.TestCase):
             WEATHER: {
                 "condition": "Clear",
                 "temperature": 62.78,
-                "precipitation": 0,
+                "precipitation": 50,
                 "clouds": 4,
             },
             OUTPUT: {
@@ -300,7 +299,7 @@ class ParksTests(unittest.TestCase):
                 "weather": {
                     "condition": "Clear",
                     "temperature": 62.78,
-                    "precipitation": 0,
+                    "precipitation": 50,
                     "clouds": 4,
                 },
             },
