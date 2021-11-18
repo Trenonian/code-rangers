@@ -17,7 +17,7 @@
     },
     "scripts": {
         "backend": "python3 backend/app.py",
-        "frontend": "cd frontend && npm run start"
+        "frontend": "cd frontend && npm start"
     },
     "eslintConfig": {
         "extends": [
